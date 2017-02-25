@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: anpr-asp
+  host: anpr-asp
+  disk_quota: 1024M
+  services:
+  - anpr-asp-cloudantNoSQLDB
